@@ -1,0 +1,6 @@
+import pandas as pd
+
+
+df = pd.read_csv('dataset_vivienda.csv')
+
+print(df)
