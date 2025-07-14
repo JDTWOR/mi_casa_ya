@@ -1,8 +1,3 @@
-import flet as ft
+import pandas as pd
 
-def main(page: ft.Page):
-    texto = ft.Text("hernan es gay")
-
-    page.add(texto)
-
-ft.app(target=main, view=ft.WEB_BROWSER)
+df = pd.read_csv('dataset_viviendas.csv')
